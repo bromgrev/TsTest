@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+  "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        //"**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": true
+    }
+    //,
+    //"typescript.tsdk": "C:/Users/vaika-laika/AppData/Roaming/npm/node_modules/typescript/lib"
+
+}
