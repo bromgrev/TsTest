@@ -18,6 +18,20 @@
             "address": "localhost",
             "port": 5858,
             "outFiles": []
+        },
+        {
+            "name": "Launch via NPM",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script", "debug"
+            ],
+            "port": 5858
         }
     ]
 }
